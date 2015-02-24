@@ -1,0 +1,12 @@
+parameters:
+    client_data_url: "http://unbiased.loc/api"
+    demo_locations_file: "locations/locations.yml"
+
+services:
+    nbucic_api_client:
+        class: Nbucic\Bundle\ApiLocationsBundle\ApiLocations\Client
+        arguments:
+            - %client_data_url%
+    nbucic_api_service:
+        class: Nbucic\Bundle\ApiLocationsBundle\ApiLocations\Service
+        arguments: [ @nbucic_api_client ]

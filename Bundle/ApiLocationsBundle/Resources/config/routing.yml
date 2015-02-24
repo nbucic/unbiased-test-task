@@ -1,0 +1,3 @@
+nbucic_api_get_locations:
+    path:     /api/locations
+    defaults: { _controller: NbucicApiLocationsBundle:Api:getJsonLocations, _format: json }

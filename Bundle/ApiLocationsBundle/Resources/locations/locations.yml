@@ -1,0 +1,13 @@
+locations:
+    - name: Eiffel Tower
+      coordinates:
+          lat: 48.858251
+          lng: 2.294495
+    - name: Zagreb downtown
+      coordinates:
+          lat: 45.813199
+          lng: 15.977295
+    - name: Wien Stephansdom
+      coordinates:
+          lat: 48.208543
+          lng: 16.373562
